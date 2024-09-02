@@ -307,6 +307,7 @@ img{
 	
 .titulonosotros{
    text-align: center;
+   color: var(--blanco);
 }
 
 @media(min-width:768px){
@@ -350,6 +351,7 @@ img{
 
 .contacto-titulo{
 	text-align: center;
+	color: var(--blanco)
 }
 
 @media(min-width:768px){
