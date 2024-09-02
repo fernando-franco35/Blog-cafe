@@ -65,7 +65,6 @@ h4{
 
 img{
 	width: 95%;
-	margin-left: 1rem;
 }
 
 .no-margin{
@@ -278,7 +277,8 @@ img{
 }
 
 .main-cursos{
-	margin: auto;
+	margin: 2rem auto 0;
+	padding: 1rem;
 	width: 95%;
 	background-color:  #27262649;
 }
@@ -339,7 +339,10 @@ img{
 	}
 }
 .main-entrada{
-	margin: 2rem 1rem;
+	color: var(--blanco);
+	padding: 1rem;
+	margin: 0;
+	background-color:  #27262649;
  }
 
 @media(min-width:768px){
