@@ -1,0 +1,83 @@
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>blog-cafe</title>
+	<link rel="stylesheet" href="../normalize/normalize.css">
+	<link rel="stylesheet" href="../style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lumanosimo&family=Open+Sans&family=PT+Sans:ital,wght@0,700;1,400&f amily=Staatliches&display=swap" rel="stylesheet">
+  	<link type="image/png" sizes="32x32" rel="icon" href="../img/icons8-cafe-32.png">
+  </head>
+<body>
+   <header class="header">
+
+     <div class="contenedor">
+       <div class="barra">
+         <a class="logo" href="../index/index.html">
+   	     <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafe</span></h1>
+         </a>
+
+         <nav class="navegacion">
+      	   <a href="../nosotros/nosotros.html" class="navegacion__enlace">nosotros</a>
+           <a href="../cursos/cursos.html" class="navegacion__enlace">cursos</a>
+      	   <a href="../contactos/contactos.html" class="navegacion__enlace">contactos</a>
+         </nav>	
+       </div>
+     </div>
+
+   	 <div class="header__texto">
+   	 	<h2 class="no-margin">blog de cafe con consejos y cursos</h2>
+   	 	<p class="no-margin">aprende de los expertos con las mejores recetas y consejos</p>
+   	 </div>
+
+   </header>
+   
+   <main>
+          <h4 class="contacto-titulo">contacto</h2>
+
+    <div class="main-contactos">
+        <div class="imagen-bg">    
+        </div>
+     <form id="formulario">
+      <fieldset class="formulario-contactos">
+        <div class="campo">
+          <label class="campo__label" for="nombre">nombre</label>
+          <input class="campo__input" type="text" id="nombre">
+        </div> 
+        <div  class="campo">  
+          <label class="campo__label" for="email">e-mail</label>
+          <input class="campo__input" type="email" id="email">
+        </div>    
+        <div class="campo">
+          <label class="campo__label" for="mensaje">mensaje</label>
+          <textarea class="campo__input campo__input--textarea" id="mensaje"></textarea>
+        </div>
+        <div>
+          <p class="parrafo-validacion centrarimagen">¡ completaste todos los campos con exito !</p>
+        </div> 
+        <div>
+          <button class="boton boton--contactos" type="submit" id="botonenviar">enviar</button>
+        </div> 
+      </fieldset>
+     </form>
+    </div>
+
+   </main>
+  
+   <footer class="contenedorfoot">
+   	    <div class="barrafoot">
+   	    	<a class="foot" href="../index/index.html">
+   	        <h1 class="foot__nombre">Blog<span class="foot__logo">DeCafe</span></h1>
+            </a> 
+   	    <nav class="navegacion">
+      	   <a href="../nosotros/nosotros.html" class="navegacion__enlace">nosotros</a>
+           <a href="../cursos/cursos.html" class="navegacion__enlace">cursos</a>
+           <a href="../contactos/contactos.html" class="navegacion__enlace">contactos</a>
+        </nav>	
+   	    </div>
+   <script src="../js/modernizr.js"></script>
+   <script src="../js/scripts.js"></script>
+   </footer>
+</body>
