@@ -289,9 +289,20 @@ img{
 
 @media(max-width:500px){
 	.centrarimagen{
-		width: 100%;
+		img{
+			width: 100%;
+		}
 	}
 }
+
+@media(500px <= width <= 768px){
+	.centrarimagen{
+		img{
+			width: 100%;
+		}
+	}
+}
+
 @media(min-width:894px){
 	 .contenedornosotros{
 		display: grid;
